@@ -62,12 +62,12 @@ params:
           imageHeight: 160
           buttons:
             # Commenting out buttons while working on content (About, Projects and Blog)
-            # - name: About
-            #   url: about/
-            # - name: Projects
-            #   url: projects/
-            # - name: Blog
-            #   url: blog/
+            - name: About
+              url: about/
+            - name: Projects
+              url: projects/
+            - name: Blog
+              url: blog/
             # - name: Data
             #   url: data/
             # - name: Books

@@ -1,4 +1,4 @@
 ---
-title: "Papers"
-description: "Preprints and articles by Professor Dr von Igelfeld."
+title: "Projects"
+description: "A showcase of my software engineering and data science projects"
 ---
