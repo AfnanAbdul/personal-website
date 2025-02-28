@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>LLMs on Afnan Alabdulwahab</title>
+    <link>http://localhost:1313/tags/llms/</link>
+    <description>Recent content in LLMs on Afnan Alabdulwahab</description>
+    <generator>Hugo -- 0.144.2</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/llms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comparative Study of Large Language Model Evaluation Frameworks</title>
+      <link>http://localhost:1313/projects/project1/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/project1/</guid>
+      <description>A comprehensive analysis of evaluation frameworks for LLMs, focusing on bias detection, response quality, and robustness.</description>
+    </item>
+    <item>
+      <title>Understanding DeepEval&#39;s Bias Evaluation Methodology</title>
+      <link>http://localhost:1313/blog/writing1/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/writing1/</guid>
+      <description>A deep dive into DeepEval&amp;#39;s methodology for bias detection in LLM-generated text, covering opinion extraction, structured evaluation, and scoring.</description>
+    </item>
+    <item>
+      <title>The Turing Test: Detecting LLM-Generated Content</title>
+      <link>http://localhost:1313/projects/project3/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/project3/</guid>
+      <description>A research project exploring methods for detecting AI-generated text, benchmarking existing detection models, and developing a robust classifier to distinguish human-written and LLM-generated content.</description>
+    </item>
+  </channel>
+</rss>

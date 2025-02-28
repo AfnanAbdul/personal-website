@@ -2,206 +2,290 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Afnan Alabdulwahab</title>
-    <link>https://afnanabdul.dev/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Afnan Alabdulwahab</description>
     <generator>Hugo -- 0.144.2</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://afnanabdul.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Academia</title>
-      <link>https://afnanabdul.dev/tags/academia/</link>
-      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/academia/</guid>
+      <title>Academic Integrity</title>
+      <link>http://localhost:1313/tags/academic-integrity/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/academic-integrity/</guid>
       <description></description>
     </item>
     <item>
-      <title>Experimental Psychology</title>
-      <link>https://afnanabdul.dev/tags/experimental-psychology/</link>
-      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/experimental-psychology/</guid>
+      <title>Affective Computing</title>
+      <link>http://localhost:1313/tags/affective-computing/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/affective-computing/</guid>
       <description></description>
     </item>
     <item>
-      <title>Inner Hedgehog</title>
-      <link>https://afnanabdul.dev/tags/inner-hedgehog/</link>
-      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/inner-hedgehog/</guid>
+      <title>AI</title>
+      <link>http://localhost:1313/tags/ai/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ai/</guid>
       <description></description>
     </item>
     <item>
-      <title>Invasive Thoughts</title>
-      <link>https://afnanabdul.dev/tags/invasive-thoughts/</link>
-      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/invasive-thoughts/</guid>
+      <title>AI Ethics</title>
+      <link>http://localhost:1313/tags/ai-ethics/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ai-ethics/</guid>
       <description></description>
     </item>
     <item>
-      <title>Social Psychology</title>
-      <link>https://afnanabdul.dev/tags/social-psychology/</link>
-      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/social-psychology/</guid>
+      <title>AI-Generated Text Detection</title>
+      <link>http://localhost:1313/tags/ai-generated-text-detection/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ai-generated-text-detection/</guid>
       <description></description>
     </item>
     <item>
-      <title>Dataset</title>
-      <link>https://afnanabdul.dev/tags/dataset/</link>
-      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/dataset/</guid>
+      <title>Bias Detection</title>
+      <link>http://localhost:1313/tags/bias-detection/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bias-detection/</guid>
       <description></description>
     </item>
     <item>
-      <title>French</title>
-      <link>https://afnanabdul.dev/tags/french/</link>
-      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/french/</guid>
+      <title>C&#43;&#43;</title>
+      <link>http://localhost:1313/tags/c&#43;&#43;/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/c&#43;&#43;/</guid>
       <description></description>
     </item>
     <item>
-      <title>Irregular Verbs</title>
-      <link>https://afnanabdul.dev/tags/irregular-verbs/</link>
-      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/irregular-verbs/</guid>
+      <title>Claude</title>
+      <link>http://localhost:1313/tags/claude/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/claude/</guid>
       <description></description>
     </item>
     <item>
-      <title>Italian</title>
-      <link>https://afnanabdul.dev/tags/italian/</link>
-      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/italian/</guid>
+      <title>Convolutional Neural Networks</title>
+      <link>http://localhost:1313/tags/convolutional-neural-networks/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/convolutional-neural-networks/</guid>
       <description></description>
     </item>
     <item>
-      <title>Philology</title>
-      <link>https://afnanabdul.dev/tags/philology/</link>
-      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/philology/</guid>
+      <title>CUDA</title>
+      <link>http://localhost:1313/tags/cuda/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cuda/</guid>
       <description></description>
     </item>
     <item>
-      <title>Portuguese</title>
-      <link>https://afnanabdul.dev/tags/portuguese/</link>
-      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/portuguese/</guid>
+      <title>Data Science Capstone</title>
+      <link>http://localhost:1313/tags/data-science-capstone/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/data-science-capstone/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deep Learning</title>
+      <link>http://localhost:1313/tags/deep-learning/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DeepEval</title>
+      <link>http://localhost:1313/tags/deepeval/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/deepeval/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GPU Optimization</title>
+      <link>http://localhost:1313/tags/gpu-optimization/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/gpu-optimization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLMs</title>
+      <link>http://localhost:1313/tags/llms/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/llms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LSTMs</title>
+      <link>http://localhost:1313/tags/lstms/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/lstms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine Learning</title>
+      <link>http://localhost:1313/tags/machine-learning/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NLP</title>
+      <link>http://localhost:1313/tags/nlp/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/nlp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NVIDIA Nsight Systems</title>
+      <link>http://localhost:1313/tags/nvidia-nsight-systems/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/nvidia-nsight-systems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Profiling Tools</title>
+      <link>http://localhost:1313/tags/profiling-tools/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/profiling-tools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Promptfoo</title>
+      <link>http://localhost:1313/tags/promptfoo/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/promptfoo/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>https://afnanabdul.dev/tags/python/</link>
+      <link>http://localhost:1313/tags/python/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PyTorch</title>
+      <link>http://localhost:1313/tags/pytorch/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/pytorch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RAGAS</title>
+      <link>http://localhost:1313/tags/ragas/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ragas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SER</title>
+      <link>http://localhost:1313/tags/ser/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ser/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Speech Emotion Recognition</title>
+      <link>http://localhost:1313/tags/speech-emotion-recognition/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/speech-emotion-recognition/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Text Classification</title>
+      <link>http://localhost:1313/tags/text-classification/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/text-classification/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Transformers</title>
+      <link>http://localhost:1313/tags/transformers/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/transformers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TruLens</title>
+      <link>http://localhost:1313/tags/trulens/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/trulens/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UVA</title>
+      <link>http://localhost:1313/tags/uva/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/uva/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dataset</title>
+      <link>http://localhost:1313/tags/dataset/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/python/</guid>
+      <guid>http://localhost:1313/tags/dataset/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>French</title>
+      <link>http://localhost:1313/tags/french/</link>
+      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/french/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Irregular Verbs</title>
+      <link>http://localhost:1313/tags/irregular-verbs/</link>
+      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/irregular-verbs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Italian</title>
+      <link>http://localhost:1313/tags/italian/</link>
+      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/italian/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Philology</title>
+      <link>http://localhost:1313/tags/philology/</link>
+      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/philology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Portuguese</title>
+      <link>http://localhost:1313/tags/portuguese/</link>
+      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/portuguese/</guid>
       <description></description>
     </item>
     <item>
       <title>Romance Languages</title>
-      <link>https://afnanabdul.dev/tags/romance-languages/</link>
+      <link>http://localhost:1313/tags/romance-languages/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/romance-languages/</guid>
+      <guid>http://localhost:1313/tags/romance-languages/</guid>
       <description></description>
     </item>
     <item>
       <title>Simulations</title>
-      <link>https://afnanabdul.dev/tags/simulations/</link>
+      <link>http://localhost:1313/tags/simulations/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/simulations/</guid>
+      <guid>http://localhost:1313/tags/simulations/</guid>
       <description></description>
     </item>
     <item>
       <title>Spanish</title>
-      <link>https://afnanabdul.dev/tags/spanish/</link>
+      <link>http://localhost:1313/tags/spanish/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/spanish/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>History of Oil</title>
-      <link>https://afnanabdul.dev/tags/history-of-oil/</link>
-      <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/history-of-oil/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mediterranean World</title>
-      <link>https://afnanabdul.dev/tags/mediterranean-world/</link>
-      <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/mediterranean-world/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Oleic Science</title>
-      <link>https://afnanabdul.dev/tags/oleic-science/</link>
-      <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/oleic-science/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Canine Pulmonary Efficiency</title>
-      <link>https://afnanabdul.dev/tags/canine-pulmonary-efficiency/</link>
-      <pubDate>Tue, 28 Dec 2004 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/canine-pulmonary-efficiency/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Canine Science</title>
-      <link>https://afnanabdul.dev/tags/canine-science/</link>
-      <pubDate>Tue, 28 Dec 2004 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/canine-science/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Experimental Zoology</title>
-      <link>https://afnanabdul.dev/tags/experimental-zoology/</link>
-      <pubDate>Tue, 28 Dec 2004 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/experimental-zoology/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sausage Dogs</title>
-      <link>https://afnanabdul.dev/tags/sausage-dogs/</link>
-      <pubDate>Tue, 28 Dec 2004 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/sausage-dogs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Zoology</title>
-      <link>https://afnanabdul.dev/tags/zoology/</link>
-      <pubDate>Tue, 28 Dec 2004 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/zoology/</guid>
+      <guid>http://localhost:1313/tags/spanish/</guid>
       <description></description>
     </item>
     <item>
       <title>Portugese</title>
-      <link>https://afnanabdul.dev/tags/portugese/</link>
+      <link>http://localhost:1313/tags/portugese/</link>
       <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/portugese/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Celtic Languages</title>
-      <link>https://afnanabdul.dev/tags/celtic-languages/</link>
-      <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/celtic-languages/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Irish</title>
-      <link>https://afnanabdul.dev/tags/irish/</link>
-      <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/irish/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Language Modernization</title>
-      <link>https://afnanabdul.dev/tags/language-modernization/</link>
-      <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/language-modernization/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Profanity</title>
-      <link>https://afnanabdul.dev/tags/profanity/</link>
-      <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/tags/profanity/</guid>
+      <guid>http://localhost:1313/tags/portugese/</guid>
       <description></description>
     </item>
   </channel>

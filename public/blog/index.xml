@@ -2,25 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog on Afnan Alabdulwahab</title>
-    <link>https://afnanabdul.dev/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content in Blog on Afnan Alabdulwahab</description>
     <generator>Hugo -- 0.144.2</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://afnanabdul.dev/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Lectures at the Villa of Reduced Circumstances</title>
-      <link>https://afnanabdul.dev/blog/course1/</link>
-      <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/blog/course1/</guid>
-      <description>This graduate course presents classical results in Romance philology.</description>
-    </item>
-    <item>
-      <title>Profanity in Early Irish</title>
-      <link>https://afnanabdul.dev/blog/course2/</link>
-      <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>https://afnanabdul.dev/blog/course2/</guid>
-      <description>This undergraduate course discusses profanity in Early Irish.</description>
+      <title>Understanding DeepEval&#39;s Bias Evaluation Methodology</title>
+      <link>http://localhost:1313/blog/writing1/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/writing1/</guid>
+      <description>A deep dive into DeepEval&amp;#39;s methodology for bias detection in LLM-generated text, covering opinion extraction, structured evaluation, and scoring.</description>
     </item>
   </channel>
 </rss>

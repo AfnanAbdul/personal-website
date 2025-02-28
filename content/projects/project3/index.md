@@ -1,53 +1,34 @@
 ---
-title: "Your Inner Hedgehog" 
-date: 2021-04-06
-lastmod: 2024-10-18
-tags: ["social psychology","inner hedgehog","academia","experimental psychology","invasive thoughts"]
-author: ["Hilda Schreiber-Ziegler", "Moritz-Maria von Igelfeld"]
-description: "This paper describes the inner hedgehog, a psychological condition widespread in academia. Published in the Journal of Socio-Experimental Psychology, 2021." 
-summary: "Using several case studies, this paper describes the inner hedgehog, a psychological condition widespread in academic occupations. The condition has lasting consequences and no known cure." 
+title: "The Turing Test: Detecting LLM-Generated Content"
+date: 2025-02-28
+lastmod: 2025-02-28
+tags: ["LLMs", "AI-Generated Text Detection", "Academic Integrity", "Machine Learning", "Text Classification", "Deep Learning", "NLP"]
+description: "A research project exploring methods for detecting AI-generated text, benchmarking existing detection models, and developing a robust classifier to distinguish human-written and LLM-generated content."
+summary: "As part of my **Decoding LLMs** course, this project investigates the challenges of detecting AI-generated text in academic settings. Our team explores state-of-the-art detection methods, benchmarks existing classifiers, and develops a detection model trained on diverse datasets. The goal is to enhance academic integrity by providing reliable AI-text detection tools."
+showToc: false
+weight: 3
 cover:
-    image: "paper3.png"
-    alt: "Vizualisation of an inner hedgehog"
+    image: ""  # Add a project image if available
+    alt: "AI-Generated Text Detection"
     relative: false
-editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Socio-Experimental Psychology"
-
 ---
 
 ---
 
-##### Download
+##### Links
 
-+ [Paper](paper3.pdf)
-+ [Raw data](https://github.com/pmichaillat/recession-indicator)
-
----
-
-##### Abstract
-
-Using several case studies, this paper describes the inner hedgehog, a psychological condition widespread in academic occupations. The condition has lasting consequences and no known cure. Mauris tincidunt quam a libero consequat, nec pharetra nunc tristique. Pellentesque eget ipsum ut dui laoreet congue ut nec nulla. Nulla facilisi. Sed consequat, odio ac aliquet tempor, turpis augue auctor mauris, at malesuada sem dolor eget libero. Nullam iaculis malesuada risus, id fringilla quam sagittis ac. Fusce congue vel ex et facilisis. Integer volutpat eros ut urna efficitur, id efficitur sapien pharetra.
++ [Paper](#)
++ [Online appendix](#)
++ [Code and data](#)
 
 ---
 
-##### Citation
+##### Overview
 
-Schreiber-Ziegler, Hilda, and Moritz-Maria von Igelfeld. 2021. "Your Inner Hedgehog." *Journal of Socio-Experimental Psychology* 131 (2): 1299–1302.
-
-```BibTeX
-@article{SZI21,
-author = {Hilda Schreiber-Ziegler and Moritz-Maria von Igelfeld},
-year = {2021},
-title ={Your Inner Hedgehog},
-journal = {Journal of Socio-Experimental Psychology},
-volume = {131},
-number = {2},
-pages = {1299--1302}}
-```
 
 ---
 
-##### Related material
+#### Related material
 
-+ [Nontechnical summary](https://www.alexandermccallsmith.com/book/your-inner-hedgehog)
++ [Presentation slides](#)
+
