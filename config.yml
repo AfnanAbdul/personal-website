@@ -108,8 +108,8 @@ params:
         hiddenInSingle: true
     label:
       text: "Afnan Alabdulwahab |"
-      icon: favicon.ico
-      iconHeight: 18
+      icon: apple-touch-icon.png
+      iconHeight: 64
 
 markup:
     goldmark:

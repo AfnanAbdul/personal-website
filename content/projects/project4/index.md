@@ -1,5 +1,5 @@
 ---
-title: "Speech Emotion Recognitiong"
+title: "Speech Emotion Recognition"
 date: 2025-02-28
 lastmod: 2025-02-28
 tags: ["Deep Learning", "Speech Emotion Recognition", "SER", "Affective Computing", "Convolutional Neural Networks", "LSTMs", "AI", "Machine Learning"]
