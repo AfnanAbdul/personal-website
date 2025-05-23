@@ -1,10 +1,10 @@
 ---
 title: "Comparative Study of Large Language Model Evaluation Frameworks"
-date: 2025-02-28
-lastmod: 2025-02-28
-tags: ["LLMs", "AI", "Bias Detection", "Python", "Claude", "RAGAS", "promptfoo", "DeepEval", "TruLens", "UVA", "Data Science Capstone"]
+date: 2025-05-23
+lastmod: 2025-05-23
+tags: ["LLMs", "LLM-as-a-Judge","AI Ethics", "Bias Detection", "Model Evaluation", "Python", "Claude", "RAGAS", "promptfoo", "DeepEval", "TruLens", "UVA", "Data Science Capstone"]
 description: "A comprehensive analysis of evaluation frameworks for LLMs, focusing on bias detection, response quality, and robustness."
-summary: "As part of my **capstone project in the Master’s in Data Science program at the University of Virginia**, this research evaluates various LLM evaluation frameworks, emphasizing bias detection, response quality assessment, and robustness testing. The study leverages multiple datasets and methodologies to benchmark state-of-the-art approaches for ethical and reliable AI assessment."
+summary: "As part of my capstone project for the M.S. in Data Science at the University of Virginia in collaboration with Deloitte, this research critically examines leading frameworks for evaluating large language models (LLMs). The study leverages multiple datasets and methodologies to benchmark state-of-the-art approaches for ethical and reliable AI assessment. This comprehensive research systematically evaluated and compared multiple LLM evaluation frameworks across eight critical metrics: toxicity detection, bias detection, hallucination detection, summarization quality, tone identification, readability assessment, retrieval accuracy, and response accuracy."
 showToc: false
 weight: 1
 cover:
@@ -17,9 +17,10 @@ cover:
 
 ##### Links
 
-+ [Paper](#)
-+ [Online appendix](#)
-+ [Code and data](#)
++ [Paper](LLM_as_a_judge_Deloitte.pdf)
++ [Code](https://github.com/AfnanAbdul/LLM-eval-framework-comparison)
++ [Presentation Slides](1003am_deloitte_anthropic_llm.pdf)
++ [LLM Evaluation Framework Leaderboard](https://llm-evaluation-framework-leaderboard.vercel.app)
 
 ---
 
@@ -31,4 +32,4 @@ As part of my UVA capstone project, I collaborated with an industry sponsor to a
 
 #### Related material
 
-+ [Presentation slides](#)
++ [🏛️ UVA Master’s in Data Science Students Showcase Real-World Solutions in 2025 Capstone Presentations](https://bit.ly/3RTDgCo)
