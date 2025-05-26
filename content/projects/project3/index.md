@@ -18,7 +18,7 @@ cover:
 
 ##### Links
 
-+ [Paper](DS6051_AI_Detection_Report.pdf)
++ [Paper](DS6051_Final_Report.pdf)
 + [Code](https://github.com/AfnanAbdul/TuringLens)
 + [Presentation Slides](AI_Detection_Presentation.pdf)
 
