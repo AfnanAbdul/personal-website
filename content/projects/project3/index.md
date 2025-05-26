@@ -58,6 +58,6 @@ Building on our initial detection framework, I plan to continue this research in
 
 #### Related material
 
-+ [📰 OpenAI ends its AI text classifier due to low accuracy (TechCrunch)](https://techcrunch.com/2023/07/25/openai-scuttles-ai-written-text-detector-over-low-rate-of-accuracy/)
-+ [📰 Texas A&M professor falsely accuses class of using ChatGPT (Rolling Stone)](https://www.rollingstone.com/culture/culture-features/texas-am-chatgpt-ai-professor-flunks-students-false-claims-1234736601/)
++ [OpenAI ends its AI text classifier due to low accuracy (TechCrunch)](https://techcrunch.com/2023/07/25/openai-scuttles-ai-written-text-detector-over-low-rate-of-accuracy/)
++ [Texas A&M professor falsely accuses class of using ChatGPT (Rolling Stone)](https://www.rollingstone.com/culture/culture-features/texas-am-chatgpt-ai-professor-flunks-students-false-claims-1234736601/)
 
