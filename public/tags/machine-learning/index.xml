@@ -9,13 +9,6 @@
     <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Turing Test: Detecting LLM-Generated Content</title>
-      <link>http://localhost:1313/projects/project3/</link>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/project3/</guid>
-      <description>A research project exploring methods for detecting AI-generated text, benchmarking existing detection models, and developing a robust classifier to distinguish human-written and LLM-generated content.</description>
-    </item>
-    <item>
       <title>Speech Emotion Recognition</title>
       <link>http://localhost:1313/projects/project4/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>

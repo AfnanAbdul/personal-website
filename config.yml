@@ -53,10 +53,10 @@ params:
     profileMode:
           enabled: true
           title: Afnan Alabdulwahab
-          subtitle: "I am a software engineer and Data Science master's student at the University of Virginia, with a background in industrial automation and dual degrees in Electrical and Computer Engineering.
+          subtitle: "I am a software engineer and recent Data Science master's graduate from the University of Virginia, with a background in industrial automation and dual degrees in Electrical and Computer Engineering.
 
           <br><br>
-          I am mostly interested in AI research and development in areas such as signal processing, AI-powered creativity technologies, and systems optimization, including compiler design and programming abstractions for AI workloads."
+          I am mostly interested in AI research and development in areas such as AI systems optimization including compiler design and programming abstractions for AI workloads, and AI safety and evaluation including red-teaming, adversarial testing, and responsible AI research. I am also interested in exploring the fields of signal processing and AI-powered creativity technologies."
           imageUrl: "prof_pic.jpg"
           imageWidth: 160
           imageHeight: 160

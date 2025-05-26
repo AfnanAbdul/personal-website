@@ -9,6 +9,160 @@
     <lastBuildDate>Fri, 23 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>AI</title>
+      <link>http://localhost:1313/tags/ai/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI Ethics</title>
+      <link>http://localhost:1313/tags/ai-ethics/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ai-ethics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bias Detection</title>
+      <link>http://localhost:1313/tags/bias-detection/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bias-detection/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>http://localhost:1313/tags/c&#43;&#43;/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude</title>
+      <link>http://localhost:1313/tags/claude/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/claude/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CUDA</title>
+      <link>http://localhost:1313/tags/cuda/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cuda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Science Capstone</title>
+      <link>http://localhost:1313/tags/data-science-capstone/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/data-science-capstone/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deep Learning</title>
+      <link>http://localhost:1313/tags/deep-learning/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DeepEval</title>
+      <link>http://localhost:1313/tags/deepeval/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/deepeval/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GPU Optimization</title>
+      <link>http://localhost:1313/tags/gpu-optimization/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/gpu-optimization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLM-as-a-Judge</title>
+      <link>http://localhost:1313/tags/llm-as-a-judge/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/llm-as-a-judge/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLMs</title>
+      <link>http://localhost:1313/tags/llms/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/llms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Model Evaluation</title>
+      <link>http://localhost:1313/tags/model-evaluation/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/model-evaluation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NVIDIA Nsight Systems</title>
+      <link>http://localhost:1313/tags/nvidia-nsight-systems/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/nvidia-nsight-systems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Profiling Tools</title>
+      <link>http://localhost:1313/tags/profiling-tools/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/profiling-tools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Promptfoo</title>
+      <link>http://localhost:1313/tags/promptfoo/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/promptfoo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://localhost:1313/tags/python/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PyTorch</title>
+      <link>http://localhost:1313/tags/pytorch/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/pytorch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RAGAS</title>
+      <link>http://localhost:1313/tags/ragas/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ragas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Transformers</title>
+      <link>http://localhost:1313/tags/transformers/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/transformers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TruLens</title>
+      <link>http://localhost:1313/tags/trulens/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/trulens/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UVA</title>
+      <link>http://localhost:1313/tags/uva/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/uva/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Academic Integrity</title>
       <link>http://localhost:1313/tags/academic-integrity/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
@@ -23,20 +177,6 @@
       <description></description>
     </item>
     <item>
-      <title>AI</title>
-      <link>http://localhost:1313/tags/ai/</link>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI Ethics</title>
-      <link>http://localhost:1313/tags/ai-ethics/</link>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ai-ethics/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>AI-Generated Text Detection</title>
       <link>http://localhost:1313/tags/ai-generated-text-detection/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
@@ -44,73 +184,10 @@
       <description></description>
     </item>
     <item>
-      <title>Bias Detection</title>
-      <link>http://localhost:1313/tags/bias-detection/</link>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/bias-detection/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>C&#43;&#43;</title>
-      <link>http://localhost:1313/tags/c&#43;&#43;/</link>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/c&#43;&#43;/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Claude</title>
-      <link>http://localhost:1313/tags/claude/</link>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/claude/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Convolutional Neural Networks</title>
       <link>http://localhost:1313/tags/convolutional-neural-networks/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/convolutional-neural-networks/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>CUDA</title>
-      <link>http://localhost:1313/tags/cuda/</link>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cuda/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data Science Capstone</title>
-      <link>http://localhost:1313/tags/data-science-capstone/</link>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/data-science-capstone/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Deep Learning</title>
-      <link>http://localhost:1313/tags/deep-learning/</link>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>DeepEval</title>
-      <link>http://localhost:1313/tags/deepeval/</link>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/deepeval/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>GPU Optimization</title>
-      <link>http://localhost:1313/tags/gpu-optimization/</link>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/gpu-optimization/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>LLMs</title>
-      <link>http://localhost:1313/tags/llms/</link>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/llms/</guid>
       <description></description>
     </item>
     <item>
@@ -135,48 +212,6 @@
       <description></description>
     </item>
     <item>
-      <title>NVIDIA Nsight Systems</title>
-      <link>http://localhost:1313/tags/nvidia-nsight-systems/</link>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/nvidia-nsight-systems/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Profiling Tools</title>
-      <link>http://localhost:1313/tags/profiling-tools/</link>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/profiling-tools/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Promptfoo</title>
-      <link>http://localhost:1313/tags/promptfoo/</link>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/promptfoo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>http://localhost:1313/tags/python/</link>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/python/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>PyTorch</title>
-      <link>http://localhost:1313/tags/pytorch/</link>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/pytorch/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>RAGAS</title>
-      <link>http://localhost:1313/tags/ragas/</link>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ragas/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>SER</title>
       <link>http://localhost:1313/tags/ser/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
@@ -195,27 +230,6 @@
       <link>http://localhost:1313/tags/text-classification/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/text-classification/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Transformers</title>
-      <link>http://localhost:1313/tags/transformers/</link>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/transformers/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>TruLens</title>
-      <link>http://localhost:1313/tags/trulens/</link>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/trulens/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>UVA</title>
-      <link>http://localhost:1313/tags/uva/</link>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/uva/</guid>
       <description></description>
     </item>
     <item>
