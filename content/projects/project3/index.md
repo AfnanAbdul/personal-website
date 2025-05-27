@@ -9,7 +9,7 @@ showToc: false
 showToc: false
 weight: 3
 cover:
-    image: ""  # Add a project image if available
+    image: "project3.png"
     alt: "AI-Generated Text Detection"
     relative: false
 ---

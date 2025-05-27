@@ -17,9 +17,9 @@ cover:
 
 ##### Links
 
-+ [Paper](#)
+<!-- + [Paper](#)
 + [Online appendix](#)
-+ [Code and data](#)
++ [Code and data](#) -->
 
 ---
 
@@ -28,6 +28,3 @@ cover:
 
 ---
 
-#### Related material
-
-+ [Presentation slides](#)

@@ -16,12 +16,12 @@ menu:
         - name: Projects
           url: projects/
           weight: 2
+        - name: Courses
+        #  url: courses/
+          weight: 3
         - name: Blog
           url: blog/
-          weight: 3
-        # - name: Archive
-        #   url: archive/
-        #   weight: 4
+          weight: 4
         # - name: Tags
         #   url: tags/
         #   weight: 5
@@ -42,7 +42,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["about", "projects", "blog"]
+    MainSections: ["about", "projects", "courses", "blog"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -66,6 +66,8 @@ params:
               url: about/
             - name: Projects
               url: projects/
+            - name: Courses
+            # url: courses/
             - name: Blog
               url: blog/
             # - name: Data

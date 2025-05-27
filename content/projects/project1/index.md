@@ -8,7 +8,7 @@ summary: "As part of my capstone project for the M.S. in Data Science at the Uni
 showToc: false
 weight: 1
 cover:
-    image: ""  # You can add a project image here if you have one
+    image: "project1.png" 
     alt: "LLM Evaluation Framework Comparison"
     relative: false
 ---

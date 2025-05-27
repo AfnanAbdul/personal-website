@@ -29,13 +29,13 @@ I'm passionate about **integrating low-level computer architecture, software eng
 - AI-driven media technologies, including music/audio and video AI research
 - AI-powered creative tools and applications
 
-## 🌱 Recent Work & Current Focus
+<!-- ## 🌱 Recent Work & Current Focus
 
 - Completed industry-sponsored research with Deloitte on LLM evaluation frameworks, specializing in bias detection methodologies using Anthropic's Claude
 - Deepening my knowledge in advanced machine learning and generative AI
 - Exploring parallel computing architectures and GPU optimization
 - Working with large language models and responsible AI development
-- Staying updated with the latest developments in AI compiler technologies and high-performance computing
+- Staying updated with the latest developments in AI compiler technologies and high-performance computing -->
 
 ---
 

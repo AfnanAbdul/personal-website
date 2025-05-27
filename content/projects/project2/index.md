@@ -8,7 +8,7 @@ summary: "Completed project for CS6501: GPU Architectures at the University of V
 showToc: false
 weight: 2
 cover:
-    image: ""  # Add a project image here if available
+    image: "project2.png"
     alt: "GPU Matrix Operations Performance Benchmarking"
     relative: false
 ---
