@@ -68,6 +68,9 @@
     <loc>http://localhost:1313/tags/ai-ethics/</loc>
     <lastmod>2025-05-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/anthropic/</loc>
+    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/bias-detection/</loc>
     <lastmod>2025-05-23T00:00:00+00:00</lastmod>
   </url><url>
@@ -87,6 +90,9 @@
     <lastmod>2025-05-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/deepeval/</loc>
+    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/deloitte/</loc>
     <lastmod>2025-05-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/gpu-optimization/</loc>
