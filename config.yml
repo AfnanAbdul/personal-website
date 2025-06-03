@@ -112,7 +112,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Afnan Alabdulwahab |"
+      text: "Afnan"
       icon: apple-touch-icon.png
       iconHeight: 64
 
