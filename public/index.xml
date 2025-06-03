@@ -71,12 +71,5 @@
       <guid>http://localhost:1313/books/blog1/</guid>
       <description>This book discusses Portugese irregular verbs in great details.</description>
     </item>
-    <item>
-      <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>Software Engineer &amp;amp; Data Science Graduate Student</description>
-    </item>
   </channel>
 </rss>
