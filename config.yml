@@ -56,7 +56,7 @@ params:
           subtitle: "I am a software engineer and recent Data Science master's graduate from the University of Virginia, with a background in industrial automation and dual degrees in Electrical and Computer Engineering.
 
           <br><br>
-          I am mostly interested in AI research and development in areas such as AI systems optimization including compiler design and programming abstractions for AI workloads. I am also passionate about model evaluation frameworks and benchmarks, particularly advancing AI safety through LLM evaluation, red-teaming, and adversarial testing to identify vulnerabilities and ensure robust, reliable AI systems.
+          I am mostly interested in AI research and development across two key areas: AI safety and security, and AI hardware optimization. In AI safety, I am interested in model evaluation, red-teaming, threat research, and adversarial testing to develop robust evaluation frameworks and identify vulnerabilities in AI systems. In AI hardware, I have particular interests in AI systems optimization including compiler design and programming abstractions for AI workloads.
           <br><br>
           This is where I showcase my projects and share thoughts on topics I'm exploring.
           "
