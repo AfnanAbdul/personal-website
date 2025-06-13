@@ -37,6 +37,13 @@
       <description>Developed a robust AI text detection model focused on minimizing false positives in academic writing using RoBERTa with parameter-efficient fine-tuning.</description>
     </item>
     <item>
+      <title>Practice and Application of Data Science</title>
+      <link>http://localhost:1313/courses/ds6001/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/ds6001/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>List of Irregular Verbs Across Romance Languages</title>
       <link>http://localhost:1313/data/data1/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>

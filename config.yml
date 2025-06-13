@@ -17,7 +17,7 @@ menu:
           url: projects/
           weight: 2
         - name: Courses
-        #  url: courses/
+          url: courses/
           weight: 3
         - name: Blog
           url: blog/
@@ -70,7 +70,7 @@ params:
             - name: Projects
               url: projects/
             - name: Courses
-            # url: courses/
+              url: courses/
             - name: Blog
               url: blog/
             # - name: Data
@@ -108,6 +108,7 @@ params:
 
     assets:
         disableScrollBarStyle: true
+        customCSS: ["css/extended/custom.css"]
     cover:
         hiddenInList: false
         hiddenInSingle: true

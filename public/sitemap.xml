@@ -8,14 +8,32 @@
     <loc>http://localhost:1313/blog/writing1/</loc>
     <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/courses/ds6050/</loc>
+  </url><url>
     <loc>http://localhost:1313/projects/project2/</loc>
     <lastmod>2025-05-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/courses/ds6051/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/project3/</loc>
     <lastmod>2025-05-26T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/courses/cs6501/</loc>
+  </url><url>
     <loc>http://localhost:1313/projects/project4/</loc>
     <lastmod>2025-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/courses/ds6040/</loc>
+  </url><url>
+    <loc>http://localhost:1313/courses/ds6030/</loc>
+  </url><url>
+    <loc>http://localhost:1313/courses/ds6002/</loc>
+  </url><url>
+    <loc>http://localhost:1313/courses/cs5012/</loc>
+  </url><url>
+    <loc>http://localhost:1313/courses/stat6021/</loc>
+  </url><url>
+    <loc>http://localhost:1313/courses/ds6001/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/academic-integrity/</loc>
     <lastmod>2025-05-26T00:00:00+00:00</lastmod>
@@ -185,15 +203,18 @@
     <loc>http://localhost:1313/tags/spanish/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/</loc>
-    <lastmod>2024-05-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/portugese/</loc>
-    <lastmod>2024-05-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/books/blog1/</loc>
-    <lastmod>2024-05-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/about/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/computer-vision/</loc>
+  </url><url>
+    <loc>http://localhost:1313/courses/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/jupiter-lab/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/neural-networks/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/r/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/r-studio/</loc>
   </url>
 </urlset>

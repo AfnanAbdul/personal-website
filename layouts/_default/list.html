@@ -37,6 +37,11 @@
 {{- end }}
 
 {{- $term := .Data.Term }}
+
+{{- if eq .Section "courses" }}
+  <div class="courses-grid">
+{{- end }}
+
 {{- range $index, $page := $paginator.Pages }}
 
 {{- $class := "post-entry" }}
@@ -63,19 +68,35 @@
       </span>
       {{- end }}
     </h2>
+    {{ with .Params.subtitle }}
+      <h3 style="font-weight: normal; font-size: 0.95em; margin: 0.2em 0 0.5em 0; color: #888;">{{ . }}</h3>
+    {{ end }}
   </header>
   {{- if (ne (.Param "hideSummary") true) }}
   <div class="entry-content">
     <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
   </div>
+  {{ with .Params.tags }}
+    <div class="entry-tags" style="margin-bottom: 0.5em;">
+      {{ range . }}
+        <span class="tag-badge" style="display:inline-block; background:#e0e0e0; color:#333; border-radius:8px; padding:2px 10px; margin:2px 4px 2px 0; font-size:0.85em;">
+          {{ . }}
+        </span>
+      {{ end }}
+    </div>
+  {{ end }}
   {{- end }}
-  {{- if not (.Param "hideMeta") }}
+  {{- if and (not (.Param "hideMeta")) (ne .Section "courses") }}
   <footer class="entry-footer">
     {{- partial "post_meta.html" . -}}
   </footer>
   {{- end }}
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
+{{- end }}
+
+{{- if eq .Section "courses" }}
+  </div>
 {{- end }}
 
 {{- if gt $paginator.TotalPages 1 }}
