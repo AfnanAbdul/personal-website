@@ -17,7 +17,8 @@ cover:
 
 ##### Links
 
-+ [Paper](LLM_as_a_judge_Deloitte.pdf)
++ [Paper (Extended Version)](LLM_as_a_judge_Deloitte.pdf)
++ [SIEDS Conference Paper (IEEE)](https://ieeexplore.ieee.org/document/11021089)
 + [Code](https://github.com/AfnanAbdul/LLM-eval-framework-comparison)
 + [Presentation Slides](1003am_deloitte_anthropic_llm.pdf)
 + [LLM Evaluation Framework Leaderboard](https://llm-evaluation-framework-leaderboard.vercel.app)
@@ -29,6 +30,8 @@ cover:
 🏆 Winner of ["Most Innovative Analytical Solution" Award](https://bit.ly/3RTDgCo)
 
 As part of my UVA capstone project, I collaborated with Deloitte's Anthropic Alliance to analyze and compare evaluation frameworks for large language models (LLMs). This award-winning study focused on key metrics such as response accuracy, retrieval effectiveness, bias detection, toxicity, hallucination, and tone identification. I led the bias detection evaluation, implementing Counterfactual Data Testing with the WinoBias dataset to measure LLM response consistency across sensitive attributes. Additionally, I developed and applied custom bias detection methods using promptfoo, DeepEval, and RAGAS, conducting comparative analyses on 1,500+ sentence pairs from the CrowS-Pairs dataset. By integrating counterfactual data testing with contextual sensitivity analysis, our research aimed to enhance bias evaluation in LLMs and contribute to more ethical AI assessment methodologies.
+
+**Publications:** This research was presented at the UVA 2025 Systems and Information Engineering Design Symposium (SIEDS), where we published a condensed 6-page version of our findings in the IEEE conference proceedings.
 
 ---
 
