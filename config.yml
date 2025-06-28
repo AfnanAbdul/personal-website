@@ -1,5 +1,5 @@
 baseURL: "https://afnanabdul.dev/" 
-title: Afnan Alabdulwahab
+title: Afnán Alabdulwahab
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -28,7 +28,7 @@ menu:
 
 params:
     description: "I am a software engineer & data science garduate student at the University of Virginia."
-    author: Afnan Alabdulwahab
+    author: Afnán Alabdulwahab
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -52,7 +52,7 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Afnan Alabdulwahab
+          title: Afnán Alabdulwahab
           subtitle: "I am a software engineer and recent Data Science master's graduate from the University of Virginia, with a background in industrial automation and dual degrees in Electrical and Computer Engineering.
 
           <br><br>
@@ -113,7 +113,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Afnan"
+      text: "Afnán"
       icon: apple-touch-icon.png
       iconHeight: 64
 
