@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Detecting AI-Generated Text: Targeting Academic Integrity Applications | Afnán Alabdulwahab</title>
 <meta name="keywords" content="LLMs, AI Text Detection, RoBERTa, LoRA, RAID, Academic Integrity, Transformers, Binary Classification, Python, PyTorch, HuggingFace, RAID Dataset">
 <meta name="description" content="Developed a robust AI text detection model focused on minimizing false positives in academic writing using RoBERTa with parameter-efficient fine-tuning.">
 <meta name="author" content="Afnán Alabdulwahab">
-<link rel="canonical" href="http://localhost:1313/projects/project3/">
+<link rel="canonical" href="https://afnanabdul.dev/projects/project3/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.96aa5424d149c81762de590e040b9612c8b4e2598c2d0e71bb0d17c1322e3b46.css" integrity="sha256-lqpUJNFJyBdi3lkOBAuWEsi04lmMLQ5xuw0XwTIuO0Y=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="icon" href="https://afnanabdul.dev/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://afnanabdul.dev/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://afnanabdul.dev/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://afnanabdul.dev/apple-touch-icon.png">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/projects/project3/">
+<link rel="alternate" hreflang="en" href="https://afnanabdul.dev/projects/project3/">
 <noscript>
     <style>
         #theme-toggle,
@@ -29,13 +29,13 @@
 </noscript><meta property="og:title" content="Detecting AI-Generated Text: Targeting Academic Integrity Applications" />
 <meta property="og:description" content="Developed a robust AI text detection model focused on minimizing false positives in academic writing using RoBERTa with parameter-efficient fine-tuning." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/projects/project3/" />
-<meta property="og:image" content="http://localhost:1313/project3.png" /><meta property="article:section" content="projects" />
+<meta property="og:url" content="https://afnanabdul.dev/projects/project3/" />
+<meta property="og:image" content="https://afnanabdul.dev/project3.png" /><meta property="article:section" content="projects" />
 <meta property="article:published_time" content="2025-05-26T00:00:00+00:00" />
 <meta property="article:modified_time" content="2025-05-26T00:00:00+00:00" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="http://localhost:1313/project3.png" />
+<meta name="twitter:image" content="https://afnanabdul.dev/project3.png" />
 <meta name="twitter:title" content="Detecting AI-Generated Text: Targeting Academic Integrity Applications"/>
 <meta name="twitter:description" content="Developed a robust AI text detection model focused on minimizing false positives in academic writing using RoBERTa with parameter-efficient fine-tuning."/>
 
@@ -49,13 +49,13 @@
       "@type": "ListItem",
       "position":  1 ,
       "name": "Projects",
-      "item": "http://localhost:1313/projects/"
+      "item": "https://afnanabdul.dev/projects/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "Detecting AI-Generated Text: Targeting Academic Integrity Applications",
-      "item": "http://localhost:1313/projects/project3/"
+      "item": "https://afnanabdul.dev/projects/project3/"
     }
   ]
 }
@@ -73,7 +73,7 @@
   "articleBody": " Links Paper Code Presentation Slides Overview Developed a transformer-based AI text detection model to distinguish between human and AI-generated academic writing, specifically engineered to address false positive bias in academic settings where students’ legitimate work was being wrongly flagged as AI-generated. Using RoBERTa with LoRA (Low-Rank Adaptation), achieved 99.6% accuracy while requiring only 0.82% trainable parameters compared to full fine-tuning approaches. Implemented a two-stage training methodology: initially trained on ~1,378 essays from Kaggle, then evaluated and fine-tuned on academic abstracts from the RAID dataset including adversarial examples designed to evade detection. Focused on minimizing unfair misclassification of real student work by applying aggressive 10:1 class weighting and optimizing for fairness-focused metrics like human accuracy and balanced accuracy, reducing false positives on human academic writing from 83.2% to 0.7% while maintaining 99.4% AI detection accuracy.\nNext Steps Building on our initial detection framework, I plan to continue this research independently to further explore the extent to which LLM-generated content can be effectively detected and contribute to the broader discussion on ethical AI usage in education.\nEnhanced Detection Methods and Benchmarking\nConduct thorough analysis of existing detection models and methods, expanding beyond our initial three-model comparison to include state-of-the-art approaches and commercial tools Implement the stylometric features identified in our future work, including perplexity and burstiness analysis, vocabulary richness metrics, and sentence complexity measurements to create more sophisticated hybrid detection models Explore integration of traditional linguistic features with our transformer-based approach to improve robustness and generalizability Comprehensive RAID Dataset Evaluation\nExpand evaluation to the complete RAID test dataset beyond our focused subset of academic abstracts, testing across all domains including news articles, creative writing, technical documentation, and social media content Submit results to the RAID leaderboard to benchmark our approach against other state-of-the-art detection methods and establish comparative performance metrics Analyze performance variations across different text domains and LLM source models to understand generalization capabilities Robustness and Real-World Application\nEvaluate detection performance against newer and evolving LLM architectures to ensure sustained effectiveness as AI text generation continues to advance Investigate adversarial robustness by testing against AI-generated content specifically designed to evade detection systems Develop practical implementation tools including web interfaces or API endpoints that educators could integrate into existing academic workflows Ethical AI and Academic Integrity\nConduct comprehensive fairness audits to ensure equitable performance across diverse student populations and writing styles, addressing potential biases in detection accuracy Implement explainable AI features to help educators understand detection decisions and support more informed academic integrity assessments Explore confidence scoring mechanisms that provide nuanced predictions rather than binary classifications, better serving real-world educational decision-making Related material OpenAI ends its AI text classifier due to low accuracy (TechCrunch) Texas A\u0026M professor falsely accuses class of using ChatGPT (Rolling Stone) ",
   "wordCount" : "453",
   "inLanguage": "en",
-  "image":"http://localhost:1313/project3.png","datePublished": "2025-05-26T00:00:00Z",
+  "image":"https://afnanabdul.dev/project3.png","datePublished": "2025-05-26T00:00:00Z",
   "dateModified": "2025-05-26T00:00:00Z",
   "author":{
     "@type": "Person",
@@ -81,14 +81,14 @@
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/projects/project3/"
+    "@id": "https://afnanabdul.dev/projects/project3/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Afnán Alabdulwahab",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://localhost:1313/favicon.ico"
+      "url": "https://afnanabdul.dev/favicon.ico"
     }
   }
 }
@@ -129,8 +129,8 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Afnán">
-                <img src="http://localhost:1313/apple-touch-icon.png" alt="" aria-label="logo"
+            <a href="https://afnanabdul.dev/" accesskey="h" title="Afnán">
+                <img src="https://afnanabdul.dev/apple-touch-icon.png" alt="" aria-label="logo"
                     height="64"
                     width="64">Afnán</a>
             <div class="logo-switches">
@@ -138,22 +138,22 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/about/" title="About">
+                <a href="https://afnanabdul.dev/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/projects/" title="Projects">
+                <a href="https://afnanabdul.dev/projects/" title="Projects">
                     <span>Projects</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/courses/" title="Courses">
+                <a href="https://afnanabdul.dev/courses/" title="Courses">
                     <span>Courses</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/blog/" title="Blog">
+                <a href="https://afnanabdul.dev/blog/" title="Blog">
                     <span>Blog</span>
                 </a>
             </li>
@@ -221,18 +221,18 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/llms/">LLMs</a></li>
-      <li><a href="http://localhost:1313/tags/ai-text-detection/">AI Text Detection</a></li>
-      <li><a href="http://localhost:1313/tags/roberta/">RoBERTa</a></li>
-      <li><a href="http://localhost:1313/tags/lora/">LoRA</a></li>
-      <li><a href="http://localhost:1313/tags/raid/">RAID</a></li>
-      <li><a href="http://localhost:1313/tags/academic-integrity/">Academic Integrity</a></li>
-      <li><a href="http://localhost:1313/tags/transformers/">Transformers</a></li>
-      <li><a href="http://localhost:1313/tags/binary-classification/">Binary Classification</a></li>
-      <li><a href="http://localhost:1313/tags/python/">Python</a></li>
-      <li><a href="http://localhost:1313/tags/pytorch/">PyTorch</a></li>
-      <li><a href="http://localhost:1313/tags/huggingface/">HuggingFace</a></li>
-      <li><a href="http://localhost:1313/tags/raid-dataset/">RAID Dataset</a></li>
+      <li><a href="https://afnanabdul.dev/tags/llms/">LLMs</a></li>
+      <li><a href="https://afnanabdul.dev/tags/ai-text-detection/">AI Text Detection</a></li>
+      <li><a href="https://afnanabdul.dev/tags/roberta/">RoBERTa</a></li>
+      <li><a href="https://afnanabdul.dev/tags/lora/">LoRA</a></li>
+      <li><a href="https://afnanabdul.dev/tags/raid/">RAID</a></li>
+      <li><a href="https://afnanabdul.dev/tags/academic-integrity/">Academic Integrity</a></li>
+      <li><a href="https://afnanabdul.dev/tags/transformers/">Transformers</a></li>
+      <li><a href="https://afnanabdul.dev/tags/binary-classification/">Binary Classification</a></li>
+      <li><a href="https://afnanabdul.dev/tags/python/">Python</a></li>
+      <li><a href="https://afnanabdul.dev/tags/pytorch/">PyTorch</a></li>
+      <li><a href="https://afnanabdul.dev/tags/huggingface/">HuggingFace</a></li>
+      <li><a href="https://afnanabdul.dev/tags/raid-dataset/">RAID Dataset</a></li>
     </ul>
   </footer>
 </article>

@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>LLMs on Afnán Alabdulwahab</title>
-    <link>http://localhost:1313/tags/llms/</link>
+    <link>https://afnanabdul.dev/tags/llms/</link>
     <description>Recent content in LLMs on Afnán Alabdulwahab</description>
     <generator>Hugo -- 0.144.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 26 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/llms/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://afnanabdul.dev/tags/llms/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Comparative Study of LLM Evaluation Frameworks (Deloitte-Anthropic Alliance)</title>
-      <link>http://localhost:1313/projects/project1/</link>
+      <link>https://afnanabdul.dev/projects/project1/</link>
       <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/project1/</guid>
+      <guid>https://afnanabdul.dev/projects/project1/</guid>
       <description>A comprehensive analysis of evaluation frameworks for LLMs, focusing on bias detection, response quality, and robustness - conducted in collaboration with Deloitte&amp;#39;s Anthropic Alliance.</description>
     </item>
     <item>
       <title>Understanding DeepEval&#39;s Bias Evaluation Methodology</title>
-      <link>http://localhost:1313/blog/writing1/</link>
+      <link>https://afnanabdul.dev/blog/writing1/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/writing1/</guid>
+      <guid>https://afnanabdul.dev/blog/writing1/</guid>
       <description>A deep dive into DeepEval&amp;#39;s methodology for bias detection in LLM-generated text, covering opinion extraction, structured evaluation, and scoring.</description>
     </item>
     <item>
       <title>Detecting AI-Generated Text: Targeting Academic Integrity Applications</title>
-      <link>http://localhost:1313/projects/project3/</link>
+      <link>https://afnanabdul.dev/projects/project3/</link>
       <pubDate>Mon, 26 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/project3/</guid>
+      <guid>https://afnanabdul.dev/projects/project3/</guid>
       <description>Developed a robust AI text detection model focused on minimizing false positives in academic writing using RoBERTa with parameter-efficient fine-tuning.</description>
     </item>
   </channel>

@@ -53,7 +53,7 @@ params:
     profileMode:
           enabled: true
           title: Afnán Alabdulwahab
-          subtitle: "I am a software engineer and Data Science master's graduate from the University of Virginia, with a background in industrial automation and bachelor's degrees in Electrical and Computer Engineering.
+          subtitle: "I'm a software engineer looking to transition into a research role in AI. My undergraduate education was in Electrical and Computer Engineering, and after working five years as a software engineer in industrial automation, I recently earned my master's in Data Science from the University of Virginia.
 
           <br><br>
           I am mostly interested in AI research and development across two key areas: AI safety and AI systems optimization. In AI safety, I'm particularly interested in mechanistic interpretability and model evaluation, drawn to understanding the internal mechanisms that drive AI behavior. In AI systems, I'm interested in compiler design, programming language theory, and how language design principles and abstractions can enable more efficient and reliable AI workloads.

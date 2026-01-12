@@ -2,72 +2,72 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Courses on Afnán Alabdulwahab</title>
-    <link>http://localhost:1313/courses/</link>
+    <link>https://afnanabdul.dev/courses/</link>
     <description>Recent content in Courses on Afnán Alabdulwahab</description>
     <generator>Hugo -- 0.144.2</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/courses/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://afnanabdul.dev/courses/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deep Learning</title>
-      <link>http://localhost:1313/courses/ds6050/</link>
+      <link>https://afnanabdul.dev/courses/ds6050/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/ds6050/</guid>
+      <guid>https://afnanabdul.dev/courses/ds6050/</guid>
       <description>Advanced course covering neural networks, CNN, RNN, and transformers with practical applications.</description>
     </item>
     <item>
       <title>Decoding Large Language Models</title>
-      <link>http://localhost:1313/courses/ds6051/</link>
+      <link>https://afnanabdul.dev/courses/ds6051/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/ds6051/</guid>
+      <guid>https://afnanabdul.dev/courses/ds6051/</guid>
       <description>Decoding Large Language Models</description>
     </item>
     <item>
       <title>GPU Architectures</title>
-      <link>http://localhost:1313/courses/cs6501/</link>
+      <link>https://afnanabdul.dev/courses/cs6501/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/cs6501/</guid>
+      <guid>https://afnanabdul.dev/courses/cs6501/</guid>
       <description>Comprehensive exploration of the micro-architectural and architectural aspects of general-purpose graphics processing units (GPUs). It covered a range of top-tier architecture conference and journal papers to address key research challenges related to GPU architectures.</description>
     </item>
     <item>
       <title>Bayesian Machine Learning</title>
-      <link>http://localhost:1313/courses/ds6040/</link>
+      <link>https://afnanabdul.dev/courses/ds6040/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/ds6040/</guid>
+      <guid>https://afnanabdul.dev/courses/ds6040/</guid>
       <description>Bayesian approaches explicitly account for the uncertainty present in most machine learning problems. This uncertainty derives from both randomness in observational processes and incompleteness in problem understanding. This course focused on building models from data that provide predictions and quantify the uncertainty in these predictions.</description>
     </item>
     <item>
       <title>Statistical Learning</title>
-      <link>http://localhost:1313/courses/ds6030/</link>
+      <link>https://afnanabdul.dev/courses/ds6030/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/ds6030/</guid>
+      <guid>https://afnanabdul.dev/courses/ds6030/</guid>
       <description>Fundamentals of data mining and machine learning within a common statistical framework. Topics include regression, classification, clustering, resampling, regularization, tree-based methods, ensembles, boosting, and algorithmic bias. Coursework is conducted in the R programming language.</description>
     </item>
     <item>
       <title>Ethics of Big Data</title>
-      <link>http://localhost:1313/courses/ds6002/</link>
+      <link>https://afnanabdul.dev/courses/ds6002/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/ds6002/</guid>
+      <guid>https://afnanabdul.dev/courses/ds6002/</guid>
       <description>Ethics of Big Data</description>
     </item>
     <item>
       <title>Foundations of Computer Science</title>
-      <link>http://localhost:1313/courses/cs5012/</link>
+      <link>https://afnanabdul.dev/courses/cs5012/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/cs5012/</guid>
+      <guid>https://afnanabdul.dev/courses/cs5012/</guid>
       <description>Data structures and algorithms using Python. A thorough exploration of data structures such as arrays, linked lists, stacks, queues, trees, graphs, and hash tables, along with essential algorithms for searching, sorting, and optimization, including recursion, dynamic programming, and greedy methods.</description>
     </item>
     <item>
       <title>Linear Models for Data Science</title>
-      <link>http://localhost:1313/courses/stat6021/</link>
+      <link>https://afnanabdul.dev/courses/stat6021/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/stat6021/</guid>
+      <guid>https://afnanabdul.dev/courses/stat6021/</guid>
       <description>An introduction to linear statistical models in the context of data science. Topics include simple, multiple linear regression, logistic regression, and generalized linear models.</description>
     </item>
     <item>
       <title>Practice and Application of Data Science</title>
-      <link>http://localhost:1313/courses/ds6001/</link>
+      <link>https://afnanabdul.dev/courses/ds6001/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/ds6001/</guid>
+      <guid>https://afnanabdul.dev/courses/ds6001/</guid>
       <description></description>
     </item>
   </channel>
