@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Afnán Alabdulwahab</title>
+<meta name="keywords" content="">
+<meta name="description" content="Thoughts on these resources on interpreatbility and causal reasoning:
+add disclimar that these are just my peronsal thoughts, I am not an expert and there&rsquo;s alot Is still don&rsquo;t know about the field. I am just writing to help me learn and develop my technical writing skill
+https://arxiv.org/abs/2503.08679
+https://arxiv.org/pdf/2602.16698
+https://arxiv.org/abs/2512.18792
+During my capstone at UVA, I worked with WinoBias counterfactual pairs to test whether Claude 3.During my capstone at UVA, I worked with WinoBias counterfactual pairs to test whether Claude 3.5 Sonnet resolves pronouns through genuine syntactic understanding or through learned associations between pronouns and occupations. What I observed was that the model performed worse on anti-stereotypical examples. This made me wonder whether these models are not learning the reasoning behind language and sentence structure at all, but rather learning patterns that override reasoning, or perhaps there is some form of reasoning happening that we do not yet understand. If the training signal rewards pattern recognition over structural understanding, and the data consistently pairs certain pronouns with certain occupations, why would we expect the model to learn sentence structure rather than those surface correlations? I knew that observation was meaningful but I did not know what it actually licensed as a scientific claim, and I had many questions I wanted to expand on.
+Reading the CoT faithfulness paper, the question of whether reasoning causes the answer or the answer causes the reasoning made me wonder whether what a model produces as reasoning is actually what drives its answer, or whether the two operate independently. This also reminded me of METR&rsquo;s reward hacking work, where models do not acknowledge a shortcut in the same reasoning trace while classifying that reasoning step as illogical in a different rollout.
+What I want to understand is not just the surface behavior but what is going wrong internally, and in a way that is genuinely useful to the field rather than a description of a few isolated observations. If we want models that genuinely reason, we may need to rethink how we train them rather than simply scaling what we have. I think the deeper issue is that shortcuts emerge from optimization pressure on training data designed for next token prediction, not for whether the next token makes logical sense. Methods like RLVR, where the training signal comes from automatically verifiable correctness rather than human preference ratings, are one direction toward this, but the problem of whether the model is actually reasoning or finding a new shortcut remains open.
+Something I found myself agreeing with across both the Causality and Dead Salmon papers is the concern that when you test thousands of neurons or directions, some will appear causally important by chance. Without proper statistical controls, interpretability research risks producing false discoveries at a high rate. The pilot study calibrating claim language to evidential strength was the kind of accountability the field needs. There are infinite plausible stories that can rationalize any behavior post hoc, and just as we would not trust a clinical finding reported without confidence intervals, we should not trust interpretability claims without uncertainty quantification. The parallel to the replication crisis in psychology and neuroscience, and how those fields responded with methodological reform, is the lesson I think AI interpretability needs to absorb. I want to be part of building that more rigorous foundation, doing interpretability work that is honest about what the evidence actually supports and where the gaps remain.">
+<meta name="author" content="Afnán Alabdulwahab">
+<link rel="canonical" href="http://localhost:1313/blog/writing2/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.96aa5424d149c81762de590e040b9612c8b4e2598c2d0e71bb0d17c1322e3b46.css" integrity="sha256-lqpUJNFJyBdi3lkOBAuWEsi04lmMLQ5xuw0XwTIuO0Y=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/blog/writing2/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="" />
+<meta property="og:description" content="Thoughts on these resources on interpreatbility and causal reasoning:
+add disclimar that these are just my peronsal thoughts, I am not an expert and there&rsquo;s alot Is still don&rsquo;t know about the field. I am just writing to help me learn and develop my technical writing skill
+https://arxiv.org/abs/2503.08679
+https://arxiv.org/pdf/2602.16698
+https://arxiv.org/abs/2512.18792
+During my capstone at UVA, I worked with WinoBias counterfactual pairs to test whether Claude 3.During my capstone at UVA, I worked with WinoBias counterfactual pairs to test whether Claude 3.5 Sonnet resolves pronouns through genuine syntactic understanding or through learned associations between pronouns and occupations. What I observed was that the model performed worse on anti-stereotypical examples. This made me wonder whether these models are not learning the reasoning behind language and sentence structure at all, but rather learning patterns that override reasoning, or perhaps there is some form of reasoning happening that we do not yet understand. If the training signal rewards pattern recognition over structural understanding, and the data consistently pairs certain pronouns with certain occupations, why would we expect the model to learn sentence structure rather than those surface correlations? I knew that observation was meaningful but I did not know what it actually licensed as a scientific claim, and I had many questions I wanted to expand on.
+Reading the CoT faithfulness paper, the question of whether reasoning causes the answer or the answer causes the reasoning made me wonder whether what a model produces as reasoning is actually what drives its answer, or whether the two operate independently. This also reminded me of METR&rsquo;s reward hacking work, where models do not acknowledge a shortcut in the same reasoning trace while classifying that reasoning step as illogical in a different rollout.
+What I want to understand is not just the surface behavior but what is going wrong internally, and in a way that is genuinely useful to the field rather than a description of a few isolated observations. If we want models that genuinely reason, we may need to rethink how we train them rather than simply scaling what we have. I think the deeper issue is that shortcuts emerge from optimization pressure on training data designed for next token prediction, not for whether the next token makes logical sense. Methods like RLVR, where the training signal comes from automatically verifiable correctness rather than human preference ratings, are one direction toward this, but the problem of whether the model is actually reasoning or finding a new shortcut remains open.
+Something I found myself agreeing with across both the Causality and Dead Salmon papers is the concern that when you test thousands of neurons or directions, some will appear causally important by chance. Without proper statistical controls, interpretability research risks producing false discoveries at a high rate. The pilot study calibrating claim language to evidential strength was the kind of accountability the field needs. There are infinite plausible stories that can rationalize any behavior post hoc, and just as we would not trust a clinical finding reported without confidence intervals, we should not trust interpretability claims without uncertainty quantification. The parallel to the replication crisis in psychology and neuroscience, and how those fields responded with methodological reform, is the lesson I think AI interpretability needs to absorb. I want to be part of building that more rigorous foundation, doing interpretability work that is honest about what the evidence actually supports and where the gaps remain." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/blog/writing2/" /><meta property="article:section" content="blog" />
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="Thoughts on these resources on interpreatbility and causal reasoning:
+add disclimar that these are just my peronsal thoughts, I am not an expert and there&rsquo;s alot Is still don&rsquo;t know about the field. I am just writing to help me learn and develop my technical writing skill
+https://arxiv.org/abs/2503.08679
+https://arxiv.org/pdf/2602.16698
+https://arxiv.org/abs/2512.18792
+During my capstone at UVA, I worked with WinoBias counterfactual pairs to test whether Claude 3.During my capstone at UVA, I worked with WinoBias counterfactual pairs to test whether Claude 3.5 Sonnet resolves pronouns through genuine syntactic understanding or through learned associations between pronouns and occupations. What I observed was that the model performed worse on anti-stereotypical examples. This made me wonder whether these models are not learning the reasoning behind language and sentence structure at all, but rather learning patterns that override reasoning, or perhaps there is some form of reasoning happening that we do not yet understand. If the training signal rewards pattern recognition over structural understanding, and the data consistently pairs certain pronouns with certain occupations, why would we expect the model to learn sentence structure rather than those surface correlations? I knew that observation was meaningful but I did not know what it actually licensed as a scientific claim, and I had many questions I wanted to expand on.
+Reading the CoT faithfulness paper, the question of whether reasoning causes the answer or the answer causes the reasoning made me wonder whether what a model produces as reasoning is actually what drives its answer, or whether the two operate independently. This also reminded me of METR&rsquo;s reward hacking work, where models do not acknowledge a shortcut in the same reasoning trace while classifying that reasoning step as illogical in a different rollout.
+What I want to understand is not just the surface behavior but what is going wrong internally, and in a way that is genuinely useful to the field rather than a description of a few isolated observations. If we want models that genuinely reason, we may need to rethink how we train them rather than simply scaling what we have. I think the deeper issue is that shortcuts emerge from optimization pressure on training data designed for next token prediction, not for whether the next token makes logical sense. Methods like RLVR, where the training signal comes from automatically verifiable correctness rather than human preference ratings, are one direction toward this, but the problem of whether the model is actually reasoning or finding a new shortcut remains open.
+Something I found myself agreeing with across both the Causality and Dead Salmon papers is the concern that when you test thousands of neurons or directions, some will appear causally important by chance. Without proper statistical controls, interpretability research risks producing false discoveries at a high rate. The pilot study calibrating claim language to evidential strength was the kind of accountability the field needs. There are infinite plausible stories that can rationalize any behavior post hoc, and just as we would not trust a clinical finding reported without confidence intervals, we should not trust interpretability claims without uncertainty quantification. The parallel to the replication crisis in psychology and neuroscience, and how those fields responded with methodological reform, is the lesson I think AI interpretability needs to absorb. I want to be part of building that more rigorous foundation, doing interpretability work that is honest about what the evidence actually supports and where the gaps remain."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Blog",
+      "item": "http://localhost:1313/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "",
+      "item": "http://localhost:1313/blog/writing2/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "",
+  "name": "",
+  "description": "Thoughts on these resources on interpreatbility and causal reasoning:\nadd disclimar that these are just my peronsal thoughts, I am not an expert and there\u0026rsquo;s alot Is still don\u0026rsquo;t know about the field. I am just writing to help me learn and develop my technical writing skill\nhttps://arxiv.org/abs/2503.08679 https://arxiv.org/pdf/2602.16698 https://arxiv.org/abs/2512.18792\nDuring my capstone at UVA, I worked with WinoBias counterfactual pairs to test whether Claude 3.During my capstone at UVA, I worked with WinoBias counterfactual pairs to test whether Claude 3.5 Sonnet resolves pronouns through genuine syntactic understanding or through learned associations between pronouns and occupations. What I observed was that the model performed worse on anti-stereotypical examples. This made me wonder whether these models are not learning the reasoning behind language and sentence structure at all, but rather learning patterns that override reasoning, or perhaps there is some form of reasoning happening that we do not yet understand. If the training signal rewards pattern recognition over structural understanding, and the data consistently pairs certain pronouns with certain occupations, why would we expect the model to learn sentence structure rather than those surface correlations? I knew that observation was meaningful but I did not know what it actually licensed as a scientific claim, and I had many questions I wanted to expand on. Reading the CoT faithfulness paper, the question of whether reasoning causes the answer or the answer causes the reasoning made me wonder whether what a model produces as reasoning is actually what drives its answer, or whether the two operate independently. This also reminded me of METR\u0026rsquo;s reward hacking work, where models do not acknowledge a shortcut in the same reasoning trace while classifying that reasoning step as illogical in a different rollout. What I want to understand is not just the surface behavior but what is going wrong internally, and in a way that is genuinely useful to the field rather than a description of a few isolated observations. If we want models that genuinely reason, we may need to rethink how we train them rather than simply scaling what we have. I think the deeper issue is that shortcuts emerge from optimization pressure on training data designed for next token prediction, not for whether the next token makes logical sense. Methods like RLVR, where the training signal comes from automatically verifiable correctness rather than human preference ratings, are one direction toward this, but the problem of whether the model is actually reasoning or finding a new shortcut remains open. Something I found myself agreeing with across both the Causality and Dead Salmon papers is the concern that when you test thousands of neurons or directions, some will appear causally important by chance. Without proper statistical controls, interpretability research risks producing false discoveries at a high rate. The pilot study calibrating claim language to evidential strength was the kind of accountability the field needs. There are infinite plausible stories that can rationalize any behavior post hoc, and just as we would not trust a clinical finding reported without confidence intervals, we should not trust interpretability claims without uncertainty quantification. The parallel to the replication crisis in psychology and neuroscience, and how those fields responded with methodological reform, is the lesson I think AI interpretability needs to absorb. I want to be part of building that more rigorous foundation, doing interpretability work that is honest about what the evidence actually supports and where the gaps remain.\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "Thoughts on these resources on interpreatbility and causal reasoning:\nadd disclimar that these are just my peronsal thoughts, I am not an expert and there’s alot Is still don’t know about the field. I am just writing to help me learn and develop my technical writing skill\nhttps://arxiv.org/abs/2503.08679 https://arxiv.org/pdf/2602.16698 https://arxiv.org/abs/2512.18792\nDuring my capstone at UVA, I worked with WinoBias counterfactual pairs to test whether Claude 3.During my capstone at UVA, I worked with WinoBias counterfactual pairs to test whether Claude 3.5 Sonnet resolves pronouns through genuine syntactic understanding or through learned associations between pronouns and occupations. What I observed was that the model performed worse on anti-stereotypical examples. This made me wonder whether these models are not learning the reasoning behind language and sentence structure at all, but rather learning patterns that override reasoning, or perhaps there is some form of reasoning happening that we do not yet understand. If the training signal rewards pattern recognition over structural understanding, and the data consistently pairs certain pronouns with certain occupations, why would we expect the model to learn sentence structure rather than those surface correlations? I knew that observation was meaningful but I did not know what it actually licensed as a scientific claim, and I had many questions I wanted to expand on. Reading the CoT faithfulness paper, the question of whether reasoning causes the answer or the answer causes the reasoning made me wonder whether what a model produces as reasoning is actually what drives its answer, or whether the two operate independently. This also reminded me of METR’s reward hacking work, where models do not acknowledge a shortcut in the same reasoning trace while classifying that reasoning step as illogical in a different rollout. What I want to understand is not just the surface behavior but what is going wrong internally, and in a way that is genuinely useful to the field rather than a description of a few isolated observations. If we want models that genuinely reason, we may need to rethink how we train them rather than simply scaling what we have. I think the deeper issue is that shortcuts emerge from optimization pressure on training data designed for next token prediction, not for whether the next token makes logical sense. Methods like RLVR, where the training signal comes from automatically verifiable correctness rather than human preference ratings, are one direction toward this, but the problem of whether the model is actually reasoning or finding a new shortcut remains open. Something I found myself agreeing with across both the Causality and Dead Salmon papers is the concern that when you test thousands of neurons or directions, some will appear causally important by chance. Without proper statistical controls, interpretability research risks producing false discoveries at a high rate. The pilot study calibrating claim language to evidential strength was the kind of accountability the field needs. There are infinite plausible stories that can rationalize any behavior post hoc, and just as we would not trust a clinical finding reported without confidence intervals, we should not trust interpretability claims without uncertainty quantification. The parallel to the replication crisis in psychology and neuroscience, and how those fields responded with methodological reform, is the lesson I think AI interpretability needs to absorb. I want to be part of building that more rigorous foundation, doing interpretability work that is honest about what the evidence actually supports and where the gaps remain.\n",
+  "wordCount" : "569",
+  "inLanguage": "en",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Afnán Alabdulwahab"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/blog/writing2/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Afnán Alabdulwahab",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Afnán">
+                <img src="http://localhost:1313/apple-touch-icon.png" alt="" aria-label="logo"
+                    height="64"
+                    width="64">Afnán</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/projects/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/courses/" title="Courses">
+                    <span>Courses</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/blog/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      
+    </h1>
+    <div class="post-meta">Afnán Alabdulwahab
+
+</div>
+  </header> 
+  <div class="post-content"><p>Thoughts on these resources on interpreatbility and causal reasoning:</p>
+<p>add disclimar that these are just my peronsal thoughts, I am not an expert and there&rsquo;s alot Is still don&rsquo;t know about the field. I am just writing to help me learn and develop my technical writing skill</p>
+<p><a href="https://arxiv.org/abs/2503.08679" target="_blank">https://arxiv.org/abs/2503.08679</a>
+<a href="https://arxiv.org/pdf/2602.16698" target="_blank">https://arxiv.org/pdf/2602.16698</a>
+<a href="https://arxiv.org/abs/2512.18792" target="_blank">https://arxiv.org/abs/2512.18792</a></p>
+<p>During my capstone at UVA, I worked with WinoBias counterfactual pairs to test whether Claude 3.During my capstone at UVA, I worked with WinoBias counterfactual pairs to test whether Claude 3.5 Sonnet resolves pronouns through genuine syntactic understanding or through learned associations between pronouns and occupations. What I observed was that the model performed worse on anti-stereotypical examples. This made me wonder whether these models are not learning the reasoning behind language and sentence structure at all, but rather learning patterns that override reasoning, or perhaps there is some form of reasoning happening that we do not yet understand. If the training signal rewards pattern recognition over structural understanding, and the data consistently pairs certain pronouns with certain occupations, why would we expect the model to learn sentence structure rather than those surface correlations? I knew that observation was meaningful but I did not know what it actually licensed as a scientific claim, and I had many questions I wanted to expand on.
+Reading the CoT faithfulness paper, the question of whether reasoning causes the answer or the answer causes the reasoning made me wonder whether what a model produces as reasoning is actually what drives its answer, or whether the two operate independently. This also reminded me of METR&rsquo;s reward hacking work, where models do not acknowledge a shortcut in the same reasoning trace while classifying that reasoning step as illogical in a different rollout.
+What I want to understand is not just the surface behavior but what is going wrong internally, and in a way that is genuinely useful to the field rather than a description of a few isolated observations. If we want models that genuinely reason, we may need to rethink how we train them rather than simply scaling what we have. I think the deeper issue is that shortcuts emerge from optimization pressure on training data designed for next token prediction, not for whether the next token makes logical sense. Methods like RLVR, where the training signal comes from automatically verifiable correctness rather than human preference ratings, are one direction toward this, but the problem of whether the model is actually reasoning or finding a new shortcut remains open.
+Something I found myself agreeing with across both the Causality and Dead Salmon papers is the concern that when you test thousands of neurons or directions, some will appear causally important by chance. Without proper statistical controls, interpretability research risks producing false discoveries at a high rate. The pilot study calibrating claim language to evidential strength was the kind of accountability the field needs. There are infinite plausible stories that can rationalize any behavior post hoc, and just as we would not trust a clinical finding reported without confidence intervals, we should not trust interpretability claims without uncertainty quantification. The parallel to the replication crisis in psychology and neuroscience, and how those fields responded with methodological reform, is the lesson I think AI interpretability needs to absorb. I want to be part of building that more rigorous foundation, doing interpretability work that is honest about what the evidence actually supports and where the gaps remain.</p>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+</html>

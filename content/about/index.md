@@ -6,21 +6,13 @@ description: "Software Engineer | Data Scientist"
 
 ## What I'm Working On
 
-I am a software engineer pivoting into AI safety research, with a focus on interpretability. I'm currently investigating how language models mechanistically solve pronoun coreference and gender associations, building on my capstone work on bias detection where I found Claude 3.5 Sonnet sometimes relies on memorized gender stereotypes rather than genuine syntactic understanding. I'm using the Indirect Object Identification circuit framework and TransformerLens to analyze what happens at the circuit level when models fail on counter-stereotypical examples.
+I'm currently working on interpretability evaluation through the PRISM AI Safety Research Fellowship, using drug toxicity biology as a controlled testbed to evaluate whether interpretability tools such as linear probes and chain-of-thought faithfulness metrics can reliably identify how and why LLMs succeed or fail at causal reasoning. The broader question I care about is whether we can trust the methods we use to understand models in the first place.
 
-## Why This Transition
+## Why This Work
 
 We have built models that perform astonishingly well despite our incomplete understanding of how they work internally. This disconnect between capability and understanding became deeply concerning to me, especially given that these systems are already deployed at scale while we are still learning about their failure modes as we go. It feels like the safety community is scrambling to catch up.
 
-My initial work in AI safety began with evaluations, examining model outputs, but over time I found myself less interested in simply observing what models do and more curious about understanding the internal mechanisms driving their behavior. For me, this is fundamentally a root-cause problem. My engineering background taught me that effective debugging means tracing failures through layers of abstraction to find the root cause. Through five years of debugging complex systems across abstraction layers, I learned that reliable solutions demand deep understanding of the underlying mechanisms. I am now applying that same diagnostic approach to neural network internals, focused on interpretability as the most promising path toward building AI systems that are not only capable but also reliable and controllable.
-
-## What I'm Looking For
-
-- **Feedback** on my current interpretability research
-- **Introductions** to researchers working on interpretability and AI safety
-- **Advice** on career and applications
-- **Collaboratio**n on AI safety projects (preferably interpretability)
-- **Conversations** with people who have transitioned from software engineering to AI safety research
+My initial work in AI safety began with evaluations, examining model outputs, but over time I found myself less interested in simply observing what models do and more curious about understanding the internal mechanisms driving their behavior. What draws me now is the question of how to study that more rigorously, borrowing statistical and causal frameworks from other fields. Beyond my current fellowship, I'm curious about studying how representations form during training and using mathematical frameworks borrowed from physics to ask why neural networks organize information the way they do.
 
 ## What I Bring
 
